@@ -33,7 +33,7 @@ libX11-devel libXpm-devel libXft-devel libXext-devel bzip2-devel openssl-devel \
 ncurses-devel readline-devel mesa-libGL-devel libgfortran.x86_64 glew-devel \
 git krb5-workstation libtool-ltdl lcg-util.x86_64 bc tcsh atlas \
 gsl gsl-devel xrootd-client sssd dcap-tunnel-gsi \
-libpng-devel \
+libpng-devel python3-devel \
 && yum clean all
 
 WORKDIR /workspace
